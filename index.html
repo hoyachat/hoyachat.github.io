@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit=cover">
-  <meta name="description" content="{{description}}">
-  <meta name="keywords" content="{{keyword}}" >
+  <meta name="description" content="풀스텍 개발자 송호림 - PYTHON, PHP, React Native, JS, JQUERY 등, 풀스텍 개발자 송호림 사이트에 오신 것을 환영 합니다. 스타트업 마인드, 성실한 태도, 긍정적이고 열린 가치관, 높은 목표에 끊임 없이 도전하는 웹개발자 입니다.">
+  <meta name="keywords" content="웹개발자,웹사이트,앱,하이브리드앱,웹개발,앱개발,웹개발자,앱개발자,개발자포트폴리오,프리랜서개발자,프로그래밍,웹개발자포트폴리오,소프트웨어,코딩,호야,프레임워크,php,python,react,react native,javascript,flask,codeigniter,laravel,front-end,back-end,developer,FullStack Developer,FullStack" >
   <meta name="author" content="Song Holim">
 
   <meta property="og:type" content="article" /> 
@@ -49,6 +49,9 @@
 
           <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
             <li class="nav-item col-sm-auto">
+              <a class="nav-link py-2 px-0 px-sm-3 text-white" href="javascript:void(0);" onclick="goToElement('home','');">Home</a>
+            </li>
+            <li class="nav-item col-sm-auto">
               <a class="nav-link py-2 px-0 px-sm-3 text-white" href="javascript:void(0);" onclick="goToElement('intro','');">Intro</a>
             </li>
             <li class="nav-item col-sm-auto">
@@ -56,9 +59,6 @@
             </li>
             <li class="nav-item col-sm-auto">
               <a class="nav-link py-2 px-0 px-sm-3 text-white" href="javascript:void(0);" onclick="goToElement('plans','');">Plans</a>
-            </li>
-            <li class="nav-item col-sm-auto">
-              <a class="nav-link py-2 px-0 px-sm-3 text-white" href="javascript:void(0);" onclick="goToElement('blogs','');">Blog</a>
             </li>
             <li class="nav-item col-sm-auto">
               <a class="nav-link py-2 px-0 px-sm-3 text-white" href="javascript:void(0);" onclick="goToElement('contact','');">Contact</a>
@@ -85,6 +85,15 @@
       </svg>
     </div>
     <ul class="mobile-nav-box">
+      <li>
+        <a href="javascript:void(0);" onclick="goToElement('home','Y');" class="nav-link py-2 px-0 px-sm-4 mb-3 text-white fs-1 fw-bolder">
+          Home
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </a>
+      </li>
       <li>
         <a href="javascript:void(0);" onclick="goToElement('intro','Y');" class="nav-link py-2 px-0 px-sm-4 mb-3 text-white fs-1 fw-bolder">
           Intro
@@ -113,15 +122,6 @@
         </a>
       </li>
       <li>
-        <a href="javascript:void(0);" onclick="goToElement('blogs','Y');" class="nav-link py-2 px-0 px-sm-4 mb-3 text-white fs-1 fw-bolder">
-          Blog
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-          </svg>
-        </a>
-      </li>
-      <li>
         <a href="javascript:void(0);" onclick="goToElement('contact','Y');" class="nav-link py-2 px-0 px-sm-4 mb-3 text-white fs-1 fw-bolder">
           Contact
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 20 20">
@@ -142,7 +142,7 @@
     </ul>
   </nav>
 
-  <div class="section section-1-container">
+  <div class="section section-1-container" id="home_section">
     <div class="position-relative z-1">
       <div class="position-relative top-50">
         <div class="text-common section-title text-center">AI를 이해하고 활용하는</div>
@@ -191,14 +191,14 @@
               </div>
               <div class="inline-box section-2-animation">
                 <p class="text-common section-sub-title-2">누적 프로젝트 수</p>
-                <p><span class="text-common section-title plus-subscript">120개</span></p>
+                <p><span class="text-common section-title plus-subscript">130개</span></p>
               </div>
               <div class="inline-box section-2-animation">
                 <p class="text-common section-sub-title-2">개발 가능 언어</p>
                 <p><span class="text-common section-title plus-subscript">6개</span></p>
               </div>
             </div>
-            <p class="text-common section-2-animation section-placeholder pt-5">2023년 12월 기준</p>
+            <p class="text-common section-2-animation section-placeholder pt-5">2024년 11월 기준</p>
           </div>
         </div>
       </li>
@@ -291,12 +291,16 @@
                 <p><span class="text-common section-title">80%</span></p>
               </div>
               <div class="inline-box section-2-animation">
-                <p class="text-common section-sub-title-2">React-Native</p>
-                <p><span class="text-common section-title">60%</span></p>
+                <p class="text-common section-sub-title-2">MongoDB</p>
+                <p><span class="text-common section-title">70%</span></p>
               </div>
               <div class="inline-box section-2-animation">
-                <p class="text-common section-sub-title-2">Swift</p>
+                <p class="text-common section-sub-title-2">PostgreSQL</p>
                 <p><span class="text-common section-title">70%</span></p>
+              </div>
+              <div class="inline-box section-2-animation">
+                <p class="text-common section-sub-title-2">React-Native</p>
+                <p><span class="text-common section-title">60%</span></p>
               </div>
             </div>
           </div>
@@ -589,359 +593,6 @@
     </div>
   </div>
 
-  <div class="section-5-container py-5" id="blogs_section">
-    <div class="section-5-wrap py-5 my-5">
-      <div class="section-5-title-wrap">
-        <div class="text-common section-5-title">개발 블로그</div>
-        <div class="section-5-sub-title-wrap">
-          <div class="section-5-sub-title">
-
-            <span class="text-common  on " data-year="2024" onclick="controlTab(this);">2024</span>
-
-            <span class="text-common " data-year="2023" onclick="controlTab(this);">2023</span>
-
-            <span class="text-common " data-year="2022" onclick="controlTab(this);">2022</span>
-
-            <span class="text-common " data-year="2021" onclick="controlTab(this);">2021</span>
-
-            <span class="text-common " data-year="2020" onclick="controlTab(this);">2020</span>
-
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-        <div class="blog-wrap blog-wrap-2024 on">
-          <ul class="blog-box">
-
-            <li onclick="openBlogPop('119','페이코 간편결제 API 연동');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag work">회사업무</span>
-                <span class="text-common blog-date">2024.02</span>
-              </div>
-              <div class="text-common blog-title">페이코 간편결제 API 연동</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('124','탐색적 데이터 분석');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2024.02</span>
-              </div>
-              <div class="text-common blog-title">탐색적 데이터 분석</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('117','Django - 이미 처리된 Migration 초기화');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag resolve">문제해결</span>
-                <span class="text-common blog-date">2024.01</span>
-              </div>
-              <div class="text-common blog-title">Django - 이미 처리된 Migration 초기화</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('116','Django - 다각형 차트 사용');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2024.01</span>
-              </div>
-              <div class="text-common blog-title">Django - 다각형 차트 사용</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('113','Django - DEBUG = False 오류시');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag resolve">문제해결</span>
-                <span class="text-common blog-date">2024.01</span>
-              </div>
-              <div class="text-common blog-title">Django - DEBUG = False 오류시</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-
-
-        <div class="blog-wrap blog-wrap-2023 ">
-          <ul class="blog-box">
-
-            <li onclick="openBlogPop('100','Django - 이미 서비스중인 DB 연동 방법');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag resolve">문제해결</span>
-                <span class="text-common blog-date">2023.10</span>
-              </div>
-              <div class="text-common blog-title">Django - 이미 서비스중인 DB 연동 방법</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('122','Python - 가상환경 생성 관리');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2023.08</span>
-              </div>
-              <div class="text-common blog-title">Python - 가상환경 생성 관리</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('99','네이버 최저가 크롤링');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag work">회사업무</span>
-                <span class="text-common blog-date">2023.05</span>
-              </div>
-              <div class="text-common blog-title">네이버 최저가 크롤링</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('55','Swift - CRUD 네트워킹');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2023.03</span>
-              </div>
-              <div class="text-common blog-title">Swift - CRUD 네트워킹</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('54','Swift - 생명주기(Life Cycle)');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2023.02</span>
-              </div>
-              <div class="text-common blog-title">Swift - 생명주기(Life Cycle)</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-
-
-        <div class="blog-wrap blog-wrap-2022 ">
-          <ul class="blog-box">
-
-            <li onclick="openBlogPop('35','Swift - 스토리보드 없이 코드 구현하기 1');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2022.11</span>
-              </div>
-              <div class="text-common blog-title">Swift - 스토리보드 없이 코드 구현하기 1</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('33','Swift - 델리게이트 패턴');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2022.11</span>
-              </div>
-              <div class="text-common blog-title">Swift - 델리게이트 패턴</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('30','Swift - [weak self]');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2022.11</span>
-              </div>
-              <div class="text-common blog-title">Swift - [weak self]</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('26','Swift - 문법 (Try Catch)');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2022.10</span>
-              </div>
-              <div class="text-common blog-title">Swift - 문법 (Try Catch)</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('96','SQL - 시간 더하기 빼기');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2022.05</span>
-              </div>
-              <div class="text-common blog-title">SQL - 시간 더하기 빼기</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-
-
-        <div class="blog-wrap blog-wrap-2021 ">
-          <ul class="blog-box">
-
-            <li onclick="openBlogPop('107','RN - debug가 연결되지 않을 경우');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag resolve">문제해결</span>
-                <span class="text-common blog-date">2021.03</span>
-              </div>
-              <div class="text-common blog-title">RN - debug가 연결되지 않을 경우</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('106','RN - 유용 라이브러리 설치');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2021.02</span>
-              </div>
-              <div class="text-common blog-title">RN - 유용 라이브러리 설치</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('103','RN - Fontawesome 아이콘 적용');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2021.02</span>
-              </div>
-              <div class="text-common blog-title">RN - Fontawesome 아이콘 적용</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('102','RN - React Native 시작하기');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2021.02</span>
-              </div>
-              <div class="text-common blog-title">RN - React Native 시작하기</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-            <li onclick="openBlogPop('101','RN - firebase 생성 및 권한 설정');">
-              <div class="blog-sub-title">
-                <span class="text-common blog-tag mine">자기개발</span>
-                <span class="text-common blog-date">2021.02</span>
-              </div>
-              <div class="text-common blog-title">RN - firebase 생성 및 권한 설정</div>
-
-              <div class="blog-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-
-
-        <div class="blog-wrap blog-wrap-2020 ">
-          <ul class="blog-box">
-
-          </ul>
-        </div>
-
-
-
-        <div class="blog-more-wrap">
-          <button type="button" onclick="document.location.href='/blog';" class="blog-more-btn">더 보기</button>
-        </div>
-
-
-    </div>
-  </div>
-
   <div class="section-6-container" id="contact_section">
     <div class="section-6-title">
       <div>책임감, 적응력,</div>
@@ -949,14 +600,7 @@
       <div>후회없는 선택이 될 것을 장담합니다!</div>
     </div>
     <div class="pt-5 text-center">
-      <a href="" target="_blank" class="contact-btn">
-        노션 보러가기
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right ms-2" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
-          <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
-        </svg>
-      </a>
-      <button type="button" class="contact-btn" onclick="copyTexts('');">
+      <button type="button" class="contact-btn" onclick="copyTexts('tigershl94@naver.com');">
         이메일 주소 복사
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy ms-2" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
@@ -974,15 +618,14 @@
             <p>소개</p>
             <p>작업 내용</p>
             <p>계획</p>
-            <p>블로그</p>
             <p>안내</p>
           </div>
         </div>
         <div class="col-12 col-sm-6 text-start text-sm-center pt-5 pt-sm-0">
           <div class="d-inline-block text-start">
             <p style="font-weight:900;">문의</p>
-            <p>이메일 : <a href="mailto:{{email}}" class="link-unstyled">{{email}}</a></p>
-            <p>연락처 : <a href="tel:" class="link-unstyled"></a></p>
+            <p>이메일 : <a href="mailto:tigershl94@naver.com" class="link-unstyled">tigershl94@naver.com</a></p>
+<!--            <p>연락처 : <a href="tel:" class="link-unstyled"></a></p>-->
           </div>
         </div>
       </div>
