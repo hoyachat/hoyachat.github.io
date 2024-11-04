@@ -10,7 +10,7 @@
 | My Site   | [Hoya's profile site](https://developer-hoya.github.io/)                                                                                                                                                                                                                                                                                               |
 
 ## Recent Work
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=developer-hoya&hide=contribs,prs&show_icons=true&theme=dark)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hoyachat&hide=contribs,prs&show_icons=true&theme=dark)
 
 ## 기획 목적
 > 포트폴리오 사이트를 만드는 주된 목적으로는 "나를 어필하기"라고 생각합니다. 진짜 나를 어필하기 위해서는 조금 더 나를 잘 표현 해 줄 수 있는 사이트를 벤치마킹할 필요가 있다고 생각하여, 금융 기업 중 Toss의 소개 페이지를 본따서 제작하려고 합니다.\
