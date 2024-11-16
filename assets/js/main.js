@@ -49,12 +49,7 @@ let controlTab = (arg) => {
 }
 
 let openBlogPop = (id,title) => {
-  // var myFrame = document.getElementById('blog-iframe');
-  // document.getElementById("blog-iframe").src = myFrame.src + id; 
-  let frame_origin_url = $("#blog-frame-data").attr("data-url")
-  let new_url = frame_origin_url + id;
-
-  let frame_html = `<iframe id="blog-iframe" src="${new_url}" frameborder="0" width="100%" marginwidth="0" marginheight="0" style="border: 0px;height:70vh;" ></iframe>`;
+  let frame_html = `<iframe id="blog-iframe" src="/blog/${id}.html" frameborder="0" width="100%" marginwidth="0" marginheight="0" style="border: 0px;height:70vh;" ></iframe>`;
   $("#blog-frame-data").html(frame_html)
   $("#blog-frame-title").html(title)
 
